@@ -1,0 +1,2 @@
+import{A as t}from"./index.781701a6.js";import"./index.333c52ae.js";import"./iframe.aa20fdcd.js";import"./index.8fb1b3a5.js";import"./jsx-runtime.a2bf79ed.js";const e={title:"Data display/Avatar",component:t,args:{src:"https://github.com/leogalisse.png",alt:"Leo Galisse"},argTypes:{src:{control:{type:"text"}}}},p={},c={args:{src:void 0}},l=["Primary","WithFallback"];export{p as Primary,c as WithFallback,l as __namedExportsOrder,e as default};
+//# sourceMappingURL=Avatar.stories.196b5023.js.map
