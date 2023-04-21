@@ -6,9 +6,13 @@
   "scripts": {
     "dev": "NODE_OPTIONS=--openssl-legacy-provider & turbo run dev --parallel",
     "dev-linux": "export NODE_OPTIONS=--openssl-legacy-provider; turbo run dev --parallel",
-    "build": "turbo run build"
+    "build": "turbo run build",
+    "changeset": "changeset",
+    "changeset:version": "changeset version",
+    "changeset:release": "turbo run build --filter=packages/docs && changeset publish"
   },
   "devDependencies": {
-    "turbo": "^1.8.5"
+    "@changesets/cli": "^2.26.1",
+    "turbo": "^1.9.3"
   }
 }
